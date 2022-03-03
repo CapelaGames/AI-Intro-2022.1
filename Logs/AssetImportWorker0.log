@@ -1493,3 +1493,4 @@ Received Import Request.
 Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tilemap/PaletteTiles using Guid(95ceb9fa52901daf8a309ac489ffa0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee97eec9d04137537caa0d8d8614363b') in 0.000601 seconds 
   Import took 0.003718 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
