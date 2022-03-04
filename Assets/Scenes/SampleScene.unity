@@ -346,7 +346,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 3625043607559282579, guid: 0d267bc78a0864eb48358689b29ed20a, type: 3}
-  m_Color: {r: 0, g: 0.073209524, b: 1, a: 1}
+  m_Color: {r: 0.22116414, g: 0.2842004, b: 0.6603774, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -641,6 +641,7 @@ GameObject:
   - component: {fileID: 1589612145}
   - component: {fileID: 1589612144}
   - component: {fileID: 1589612143}
+  - component: {fileID: 1589612146}
   m_Layer: 0
   m_Name: Ai Agent
   m_TagString: Untagged
@@ -667,6 +668,7 @@ MonoBehaviour:
   - {fileID: 1435903043}
   - {fileID: 379832685}
   waypointIndex: 0
+  waypointPrefab: {fileID: 4438301133297606563, guid: a8a3f2d55c5d2390a8d050da729f5aac, type: 3}
   speed: 1.5
   minGoalDistance: 0.05
 --- !u!212 &1589612144
@@ -734,3 +736,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1589612146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1589612142}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1562a84832b2ce5c0b6a7fe678a54c7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentState: 3
+  aiMovement: {fileID: 0}

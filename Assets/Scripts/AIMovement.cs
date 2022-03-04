@@ -1,6 +1,9 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Mathematics;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class AIMovement : MonoBehaviour
 {
@@ -8,13 +11,15 @@ public class AIMovement : MonoBehaviour
     public float chaseDistance = 3;
 
     //an array of GameObjets
-    public Transform[] waypoints;
+    public List<Transform> waypoints;
+    //public Transform[] waypoints;
     public int waypointIndex = 0;
-
+    public GameObject waypointPrefab;
+    
     public float speed = 1.5f;
     public float minGoalDistance = 0.05f; 
      
-    private void Update()
+    /*private void Update()
     {
         //are we within the player chase distance
         if (Vector2.Distance(transform.position, player.position) < chaseDistance)
@@ -28,9 +33,51 @@ public class AIMovement : MonoBehaviour
             WaypointUpdate();
             AIMoveTowards(waypoints[waypointIndex]);//the number is called the index
         }
+    }*/
+
+    //array.Length == List.count
+
+    private void Start()
+    {
+        NewWaypoint();
+        NewWaypoint();
+        NewWaypoint();
+        NewWaypoint();
+        NewWaypoint();
+        NewWaypoint();
+        NewWaypoint();
+        NewWaypoint();
     }
 
-    private void WaypointUpdate()
+    public void NewWaypoint()
+    {
+        float x = Random.Range(-5f, 5f);
+        float y = Random.Range(-5f, 5f);
+        
+         GameObject newPoint = Instantiate(waypointPrefab, new Vector2(x,y), Quaternion.identity);
+         
+         waypoints.Add(newPoint.transform);
+    }
+
+    public void LowestDistance()
+    {
+        float lowestDistance = float.PositiveInfinity;
+        int lowestIndex = 0;
+        float distance;
+        for (int i = 0; i < waypoints.Count; i++)
+        {
+            distance = Vector2.Distance(player.position, waypoints[i].position);
+            if (distance < lowestDistance)
+            {
+                lowestDistance = distance;
+                lowestIndex = i;
+            }
+        }
+
+        waypointIndex = lowestIndex;
+    }
+    
+    public void WaypointUpdate()
     {
         Vector2 AIPosition = transform.position;
         
@@ -41,14 +88,14 @@ public class AIMovement : MonoBehaviour
             //increase the value of waypointIndex up by 1
             waypointIndex++;
             
-            if (waypointIndex >= waypoints.Length)
+            if (waypointIndex >= waypoints.Count)
             {
                 waypointIndex = 0;
             }
         }
     }
 
-    private void AIMoveTowards(Transform goal)
+    public void AIMoveTowards(Transform goal)
     {
         Vector2 AIPosition = transform.position;
         
