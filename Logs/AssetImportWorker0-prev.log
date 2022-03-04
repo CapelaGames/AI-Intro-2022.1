@@ -1,7 +1,17 @@
+Unity Editor version:    2020.3.27f1 (e759542391ea)
+Branch:                  2020.3/release
+Build type:              Release
+Batch mode:              YES
+System name:             Linux
+Distro version:          #202202110435~1644952300~21.10~96763f1 SMP Tue Feb 15 19:52:40 U
+Kernel version:          5.15.23-76051523-generic
+Architecture:            x86_64
+Available memory:        31844 MB
 Using pre-set license
+Pro License: NO
 Desktop is 6400 x 1449 @ 60 Hz
 
- COMMAND LINE ARGUMENTS:
+COMMAND LINE ARGUMENTS:
 Unity
 -adb2
 -batchMode
@@ -13,14 +23,14 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-44801
+40205
 Successfully changed project path to: /home/capela/Documents/GitHub/AI-Intro-2022.1
 /home/capela/Documents/GitHub/AI-Intro-2022.1
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 24.82 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 32.22 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2020.2.2f1 (068178b99f32)
-[Subsystems] Discovering subsystems at path /home/capela/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Resources/UnitySubsystems
+Initialize engine version: 2020.3.27f1 (e759542391ea)
+[Subsystems] Discovering subsystems at path /home/capela/Unity/Hub/Editor/2020.3.27f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /home/capela/Documents/GitHub/AI-Intro-2022.1/Assets
 GLX Extensions: GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_visual_info GLX_EXT_visual_rating GLX_EXT_import_context GLX_SGI_video_sync GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGI_swap_control GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_buffer_age GLX_ARB_create_context GLX_ARB_create_context_profile GLX_NV_float_buffer GLX_ARB_fbconfig_float GLX_EXT_texture_from_pixmap GLX_EXT_framebuffer_sRGB GLX_NV_copy_image GLX_EXT_create_context_es_profile GLX_EXT_create_context_es2_profile GLX_ARB_create_context_no_error GLX_ARB_create_context_robustness GLX_NV_delay_before_swap GLX_EXT_stereo_tree GLX_ARB_context_flush_control GLX_NV_robustness_video_memory_purge GLX_NV_multigpu_context 
 Renderer: NVIDIA GeForce RTX 3080 Laptop GPU/PCIe/SSE2
@@ -38,62 +48,1449 @@ blend_equation_advanced_coherent GL_NVX_blend_equation_advanced_multi_draw_buffe
 der_passthrough GL_NV_gpu_program4 GL_NV_internalformat_sample_query GL_NV_gpu_program4_1 GL_NV_gpu_program5 GL_NV_gpu_program5_mem_extended GL_NV_gpu_program_fp64 GL_NV_gpu_shader5 GL_NV_half_float GL_NV_light_max_exponent GL_NV_memory_attachment GL_NV_mesh_shader GL_NV_multisample_coverage GL_NV_multisample_filter_hint GL_NV_occlusion_query GL_NV_packed_depth_stencil GL_NV_parameter_buffer_object GL_NV_parameter_buffer_object2 GL_NV_path_rendering GL_NV_path_rendering_shared_edge GL_NV_pixel_data_range GL_NV_point_sprite GL_NV_primitive_restart GL_NV_primitive_shading_rate GL_NV_query_resource GL_NV_query_resource_tag GL_NV_register_combiners GL_NV_register_combiners2 GL_NV_representative_fragment_test GL_NV_sample_locations GL_NV_sample_mask_override_coverage GL_NV_scissor_exclusive GL_NV_shader_atomic_counters GL_NV_shader_atomic_float GL_NV_shader_atomic_float64 GL_NV_shader_atomic_fp16_vector GL_NV_shader_atomic_int64 GL_NV_shader_buffer_load GL_NV_shader_storage_buffer_object GL_NV_shader_subgroup_par
 titioned GL_NV_shader_texture_footprint GL_NV_shading_rate_image GL_NV_stereo_view_rendering GL_NV_texgen_reflection GL_NV_texture_barrier GL_NV_texture_compression_vtc GL_NV_texture_dirty_tile_map GL_NV_texture_env_combine4 GL_NV_texture_multisample GL_NV_texture_rectangle GL_NV_texture_rectangle_compressed GL_NV_texture_shader GL_NV_texture_shader2 GL_NV_texture_shader3 GL_NV_transform_feedback GL_NV_transform_feedback2 GL_NV_uniform_buffer_unified_memory GL_NV_vdpau_interop GL_NV_vdpau_interop2 GL_NV_vertex_array_range GL_NV_vertex_array_range2 GL_NV_vertex_attrib_integer_64bit GL_NV_vertex_buffer_unified_memory GL_NV_vertex_program GL_NV_vertex_program1_1 GL_NV_vertex_program2 GL_NV_vertex_program2_option GL_NV_vertex_program3 GL_NV_viewport_array2 GL_NV_viewport_swizzle GL_NVX_conditional_render GL_NV_gpu_multicast GL_NVX_progress_fence GL_NVX_gpu_memory_info GL_NVX_nvenc_interop GL_NV_shader_thread_group GL_NV_shader_thread_shuffle GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent 
 GL_OVR_multiview GL_OVR_multiview2 GL_SGIS_generate_mipmap GL_SGIS_texture_lod GL_SGIX_depth_texture GL_SGIX_shadow GL_SUN_slice_accum
-OPENGL LOG: Creating OpenGL 4.5 graphics device ; Context level  <OpenGL 4.5> ; Context handle -1024821288
+OPENGL LOG: Creating OpenGL 4.5 graphics device ; Context level  <OpenGL 4.5> ; Context handle 408909624
 Initialize mono
-Mono path[0] = '/home/capela/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed'
-Mono path[1] = '/home/capela/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = '/home/capela/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56455
+Mono path[0] = '/home/capela/Unity/Hub/Editor/2020.3.27f1/Editor/Data/Managed'
+Mono path[1] = '/home/capela/Unity/Hub/Editor/2020.3.27f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/home/capela/Unity/Hub/Editor/2020.3.27f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56335
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: /home/capela/Unity/Hub/Editor/2020.2.2f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0.000816 seconds.
+Register platform support module: /home/capela/Unity/Hub/Editor/2020.3.27f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.000848 seconds.
 Native extension for LinuxStandalone target not found
-Refreshing native plugins compatible for Editor in 24.74 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 35.11 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.763 seconds
+- Completed reload, in  0.475 seconds
+Domain Reload Profiling:
+	ReloadAssembly (475ms)
+		BeginReloadAssembly (41ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (384ms)
+			LoadAssemblies (40ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (112ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (173ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (35ms)
+				BeforeProcessingInitializeOnLoad (9ms)
+				ProcessInitializeOnLoadAttributes (103ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000562 seconds.
+Registered in 0.001939 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
-Refreshing native plugins compatible for Editor in 26.15 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 32.30 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.632 seconds
+- Completed reload, in  0.831 seconds
+Domain Reload Profiling:
+	ReloadAssembly (832ms)
+		BeginReloadAssembly (99ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (692ms)
+			LoadAssemblies (63ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (212ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (297ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (32ms)
+				BeforeProcessingInitializeOnLoad (51ms)
+				ProcessInitializeOnLoadAttributes (195ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
-Refreshing native plugins compatible for Editor in 0.28 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1794 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 78.4 MB.
-System memory in use after: 78.5 MB.
+Unloading 2199 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.3 MB.
+System memory in use after: 90.3 MB.
 
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2240.
-Total: 2.328191 ms (FindLiveObjects: 0.195419 ms CreateObjectMapping: 0.064044 ms MarkObjects: 1.936505 ms  DeleteObjects: 0.131457 ms)
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2632.
+Total: 4.424747 ms (FindLiveObjects: 0.150240 ms CreateObjectMapping: 0.047102 ms MarkObjects: 4.051597 ms  DeleteObjects: 0.174740 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Sprite
+  artifactKey: Guid(fea7f53dc3eeb3fbc9613e0375fb8ebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite using Guid(fea7f53dc3eeb3fbc9613e0375fb8ebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '649cbf5dc19215bd02ab5d1d6223931a') in 0.003358 seconds 
+  Import took 0.006135 seconds .
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes
-  artifactKey: Guid(5c5c819b30013265aa634e0bc0414548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(5c5c819b30013265aa634e0bc0414548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05a0d8996e586cb870cef838a60690f8') in 0.002986 seconds
-  Import took 0.005664 seconds .
+  Time since last request: 0.000173 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(424668bdd658522cc836efb185a7d42d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(424668bdd658522cc836efb185a7d42d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f2e203c079888160939562c3f3a7e57') in 0.000453 seconds 
+  Import took 0.002771 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.065013 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ab4932f12036222795529b068a5f780') in 0.006764 seconds
-  Import took 0.008991 seconds .
+  Time since last request: 0.000202 seconds.
+  path: Assets/Sprite/MicrosoftTeams-image.png
+  artifactKey: Guid(1771cc5f0a9db2b899000fcc7a454c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/MicrosoftTeams-image.png using Guid(1771cc5f0a9db2b899000fcc7a454c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d88efdeeadc6c101a99b023d05d3567') in 0.072148 seconds 
+  Import took 0.074773 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.896291 seconds.
+  path: Assets/Scripts/PlayerMovement.cs
+  artifactKey: Guid(863c7eb0d94f99ce8800a445949a1638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerMovement.cs using Guid(863c7eb0d94f99ce8800a445949a1638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbe45c905bac3f826aac12cbed7943a7') in 0.000584 seconds 
+  Import took 0.003787 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001833 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.765 seconds
+Domain Reload Profiling:
+	ReloadAssembly (765ms)
+		BeginReloadAssembly (92ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (630ms)
+			LoadAssemblies (67ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (210ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (247ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (50ms)
+				ProcessInitializeOnLoadAttributes (181ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2188 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.9 MB.
+System memory in use after: 91.0 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2640.
+Total: 4.083647 ms (FindLiveObjects: 0.117306 ms CreateObjectMapping: 0.031498 ms MarkObjects: 3.887685 ms  DeleteObjects: 0.045767 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001857 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.774 seconds
+Domain Reload Profiling:
+	ReloadAssembly (775ms)
+		BeginReloadAssembly (85ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (643ms)
+			LoadAssemblies (63ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (216ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (256ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (53ms)
+				ProcessInitializeOnLoadAttributes (187ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2188 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.9 MB.
+System memory in use after: 91.0 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2642.
+Total: 3.886979 ms (FindLiveObjects: 0.107579 ms CreateObjectMapping: 0.033031 ms MarkObjects: 3.688346 ms  DeleteObjects: 0.057349 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001777 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.780 seconds
+Domain Reload Profiling:
+	ReloadAssembly (781ms)
+		BeginReloadAssembly (86ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (651ms)
+			LoadAssemblies (66ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (216ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (257ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (52ms)
+				ProcessInitializeOnLoadAttributes (188ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.71 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2188 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.0 MB.
+System memory in use after: 91.0 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2644.
+Total: 4.433573 ms (FindLiveObjects: 0.139161 ms CreateObjectMapping: 0.041571 ms MarkObjects: 4.171649 ms  DeleteObjects: 0.080150 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001668 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.763 seconds
+Domain Reload Profiling:
+	ReloadAssembly (763ms)
+		BeginReloadAssembly (86ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (634ms)
+			LoadAssemblies (64ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (210ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (252ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (52ms)
+				ProcessInitializeOnLoadAttributes (184ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2188 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.0 MB.
+System memory in use after: 91.0 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2646.
+Total: 3.851607 ms (FindLiveObjects: 0.109671 ms CreateObjectMapping: 0.032287 ms MarkObjects: 3.659270 ms  DeleteObjects: 0.049586 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 5407.408649 seconds.
+  path: Assets/Scenes/Tilemap.unity
+  artifactKey: Guid(4f18848ab6ef3e2e6b96703870c610aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Tilemap.unity using Guid(4f18848ab6ef3e2e6b96703870c610aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c70766d7c1bf0b237fbd937eee99f9c') in 0.010279 seconds 
+  Import took 0.013031 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 108.036282 seconds.
+  path: Assets/Sprite/Kenny
+  artifactKey: Guid(48861d5ba17080226934b2d02415b54a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny using Guid(48861d5ba17080226934b2d02415b54a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '886a1ba6f1c1294123ece252e3cde300') in 0.000757 seconds 
+  Import took 0.003384 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.970092 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup.zip
+  artifactKey: Guid(25064df1683765869b76b6ca9428b8e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup.zip using Guid(25064df1683765869b76b6ca9428b8e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db5aff054ca07b28cfa8c12787067f1c') in 0.001342 seconds 
+  Import took 0.004224 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.972370 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup
+  artifactKey: Guid(766322b59b80b899d82b3a41c2d15d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup using Guid(766322b59b80b899d82b3a41c2d15d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b964c59201145dbf605d8d85807b2c02') in 0.000531 seconds 
+  Import took 0.003228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.048105 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Preview.png
+  artifactKey: Guid(69c5c910f7bc4239092c8affbb93f842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Preview.png using Guid(69c5c910f7bc4239092c8affbb93f842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '594170d958bec962c283d0d0b4b0e5ae') in 0.030898 seconds 
+  Import took 0.034161 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Sample.png
+  artifactKey: Guid(059a417cefdfed277b90fdbc6d3b0c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Sample.png using Guid(059a417cefdfed277b90fdbc6d3b0c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdcf73bdd541ff454be6825685960d81') in 0.008737 seconds 
+  Import took 0.011331 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.786678 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tilesheet (Ships).txt
+  artifactKey: Guid(1d5c74df8a5784ab59533edaeb537df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tilesheet (Ships).txt using Guid(1d5c74df8a5784ab59533edaeb537df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91bad7f7fae356c2939f17acdd470ac2') in 0.000903 seconds 
+  Import took 0.003646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.146898 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tilesheet (Tiles).txt
+  artifactKey: Guid(8d00d7c4ac9d165beab1c9106e4a0d73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tilesheet (Tiles).txt using Guid(8d00d7c4ac9d165beab1c9106e4a0d73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33c32b7c80f8f6264fde1216fcc9c5a7') in 0.001022 seconds 
+  Import took 0.004146 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.535835 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Ships
+  artifactKey: Guid(776dcf4fb14f84174bbdbe24cfe8621d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Ships using Guid(776dcf4fb14f84174bbdbe24cfe8621d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06b212edae2b9fb3f7892ec17a4a198b') in 0.000609 seconds 
+  Import took 0.003807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040039 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Ships/ship_0000.png
+  artifactKey: Guid(1c5bb73c99965a5f2ac3989e18e1d3c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Ships/ship_0000.png using Guid(1c5bb73c99965a5f2ac3989e18e1d3c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '629ea8d9f2bdce2764e5c52132e37b94') in 0.008531 seconds 
+  Import took 0.011115 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Ships/ship_0011.png
+  artifactKey: Guid(7b90e007aa896c1e38159fde8cdde54c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Ships/ship_0011.png using Guid(7b90e007aa896c1e38159fde8cdde54c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a072b9b5881c7101b2a25e41fec84715') in 0.005129 seconds 
+  Import took 0.007504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Ships/ship_0013.png
+  artifactKey: Guid(84b43992a1463376b83508f819cbec44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Ships/ship_0013.png using Guid(84b43992a1463376b83508f819cbec44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0d61f341b64acea551737dceb2656ae') in 0.006994 seconds 
+  Import took 0.009364 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Ships/ship_0023.png
+  artifactKey: Guid(fa80e5a4824daa23e88915a0c133f576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Ships/ship_0023.png using Guid(fa80e5a4824daa23e88915a0c133f576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2cee42cbd1758027182a18b6d286681') in 0.007201 seconds 
+  Import took 0.009795 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Ships/ship_0019.png
+  artifactKey: Guid(a2adbf8ea334e4070aba1f4aa9e469a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Ships/ship_0019.png using Guid(a2adbf8ea334e4070aba1f4aa9e469a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5db53f8b17bcbfba3622c5d956cf9d06') in 0.005767 seconds 
+  Import took 0.008138 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Ships/ship_0005.png
+  artifactKey: Guid(7ea31d9b42a62d40693ca3444db306cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Ships/ship_0005.png using Guid(7ea31d9b42a62d40693ca3444db306cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '968fe7744aad2b2bf80a75b48a8582a5') in 0.003940 seconds 
+  Import took 0.006325 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Ships/ship_0018.png
+  artifactKey: Guid(77af903f6a990ec9e9d738fcc884d945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Ships/ship_0018.png using Guid(77af903f6a990ec9e9d738fcc884d945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82059a0895505f513244386631201ee3') in 0.005905 seconds 
+  Import took 0.007983 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Ships/ship_0006.png
+  artifactKey: Guid(db8265c8950f24b1496a6f985a295f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Ships/ship_0006.png using Guid(db8265c8950f24b1496a6f985a295f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd522f6d7abe593ec8807e1715cd6c8c0') in 0.006119 seconds 
+  Import took 0.008297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Ships/ship_0002.png
+  artifactKey: Guid(54948c92db8b42ce3889e0bcc2363166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Ships/ship_0002.png using Guid(54948c92db8b42ce3889e0bcc2363166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fb4c0c7240212f9ae70b280463dcfba') in 0.004866 seconds 
+  Import took 0.006937 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Ships/ship_0008.png
+  artifactKey: Guid(d5721227b509e7ac0a9b438adf041349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Ships/ship_0008.png using Guid(d5721227b509e7ac0a9b438adf041349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0943c0440f88b590ec60dd78df05374a') in 0.004966 seconds 
+  Import took 0.007231 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Ships/ship_0015.png
+  artifactKey: Guid(b19e383ef218576308b90a6e7ad14ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Ships/ship_0015.png using Guid(b19e383ef218576308b90a6e7ad14ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44579df88f6fd8a3a99a898fd44fbaad') in 0.004045 seconds 
+  Import took 0.006403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Ships/ship_0017.png
+  artifactKey: Guid(b1ef5c81b43ac9a83afdfcd2bc1fb04c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Ships/ship_0017.png using Guid(b1ef5c81b43ac9a83afdfcd2bc1fb04c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb101175abd4747f04dd6c5f1a2a548b') in 0.005963 seconds 
+  Import took 0.008323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Ships/ship_0009.png
+  artifactKey: Guid(9e6815fe01f2391dbb3716cd226f942c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Ships/ship_0009.png using Guid(9e6815fe01f2391dbb3716cd226f942c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32ba1a6e995cef35ca5df53edee605d3') in 0.008648 seconds 
+  Import took 0.011081 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Ships/ship_0001.png
+  artifactKey: Guid(a7776f21c1d31ccca80690c6c92b4288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Ships/ship_0001.png using Guid(a7776f21c1d31ccca80690c6c92b4288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a80ff49d049fd73228e2328382978e81') in 0.003996 seconds 
+  Import took 0.006473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Ships/ship_0020.png
+  artifactKey: Guid(86dea8c205c2fde208e2a570f62501fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Ships/ship_0020.png using Guid(86dea8c205c2fde208e2a570f62501fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cd55d2b8c89fa72ed0c36c7406f6ca7') in 0.005251 seconds 
+  Import took 0.007782 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Ships/ship_0022.png
+  artifactKey: Guid(40732ec7591f00f7ab95a0a615149672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Ships/ship_0022.png using Guid(40732ec7591f00f7ab95a0a615149672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f90a0cf1ccc3c4122076429c2c94841') in 0.005643 seconds 
+  Import took 0.007922 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Ships/ship_0012.png
+  artifactKey: Guid(5473d14c4a4ebc11798db963193f9140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Ships/ship_0012.png using Guid(5473d14c4a4ebc11798db963193f9140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99af0d4e92604abcb3753077e239db02') in 0.006710 seconds 
+  Import took 0.008890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Ships/ship_0014.png
+  artifactKey: Guid(b4674b7f31fcb5b08b9dac68487d1d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Ships/ship_0014.png using Guid(b4674b7f31fcb5b08b9dac68487d1d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd64c92cb121fc51cdf7918a9abbf0e5') in 0.004961 seconds 
+  Import took 0.007451 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Ships/ship_0004.png
+  artifactKey: Guid(688351f5009f67a09a941ea479ae6ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Ships/ship_0004.png using Guid(688351f5009f67a09a941ea479ae6ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e63d9898236c334972e265197486bfd') in 0.003940 seconds 
+  Import took 0.006609 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Ships/ship_0007.png
+  artifactKey: Guid(6474bd90c1eb7150ca87be93e45a311a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Ships/ship_0007.png using Guid(6474bd90c1eb7150ca87be93e45a311a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12ee49f919e1381712a42a399164b927') in 0.004754 seconds 
+  Import took 0.006903 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Ships/ship_0016.png
+  artifactKey: Guid(37cf3c32ddd7529b2a98fbb579eb9d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Ships/ship_0016.png using Guid(37cf3c32ddd7529b2a98fbb579eb9d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b40d04437814cd582a3c38083c4cf1a0') in 0.005186 seconds 
+  Import took 0.007314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Ships/ship_0010.png
+  artifactKey: Guid(c464c41aad61fe9e7be56ce3ba743b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Ships/ship_0010.png using Guid(c464c41aad61fe9e7be56ce3ba743b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10660caf347f550bc1b901286227883e') in 0.005875 seconds 
+  Import took 0.008225 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Ships/ship_0003.png
+  artifactKey: Guid(acc8afd089c32d4c18e67ab7a5860568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Ships/ship_0003.png using Guid(acc8afd089c32d4c18e67ab7a5860568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5c7ba207aa8bf2830fbb2890f36ffbb') in 0.004996 seconds 
+  Import took 0.007746 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Ships/ship_0021.png
+  artifactKey: Guid(84b0a84d52000e307b00815d113b6b8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Ships/ship_0021.png using Guid(84b0a84d52000e307b00815d113b6b8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68bb40901768c6269bc724369b79dfae') in 0.006216 seconds 
+  Import took 0.008639 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.650776 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tiles
+  artifactKey: Guid(8f4ba27577cab8806bef61dcb597eb90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tiles using Guid(8f4ba27577cab8806bef61dcb597eb90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f0f91a527c05a1f7bdfecfadff987d0') in 0.000534 seconds 
+  Import took 0.003543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.043605 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0000.png
+  artifactKey: Guid(0e1813b05ec7c8e5c8cd314247d0d9ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0000.png using Guid(0e1813b05ec7c8e5c8cd314247d0d9ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41b6baf7a96e12872e4efe265b531f1b') in 0.004896 seconds 
+  Import took 0.008014 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0033.png
+  artifactKey: Guid(a29057f103f0a42e586eb05efe23e3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0033.png using Guid(a29057f103f0a42e586eb05efe23e3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b709a7a6b5261dc420b39bc9272a32c') in 0.006569 seconds 
+  Import took 0.008941 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0048.png
+  artifactKey: Guid(3d4192c35f4149c9abfbbb823642c432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0048.png using Guid(3d4192c35f4149c9abfbbb823642c432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '140bca565be398b8427f6bb24100e06e') in 0.006003 seconds 
+  Import took 0.008332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0001.png
+  artifactKey: Guid(6c9a429535d92746daedb3ed37e9bf8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0001.png using Guid(6c9a429535d92746daedb3ed37e9bf8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2160584155fa75248478e101b114d992') in 0.004524 seconds 
+  Import took 0.006962 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0013.png
+  artifactKey: Guid(934a94bda383c6c8e84b6b3b00d1ddc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0013.png using Guid(934a94bda383c6c8e84b6b3b00d1ddc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c02302c49b0d5b4a96c18c6a563ec276') in 0.005618 seconds 
+  Import took 0.007922 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0064.png
+  artifactKey: Guid(838e6b48dc7443f43a6f7ed6ac594c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0064.png using Guid(838e6b48dc7443f43a6f7ed6ac594c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73f4b7031fa84b03ace459aa35beea4f') in 0.003950 seconds 
+  Import took 0.006164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0042.png
+  artifactKey: Guid(018611765c2cb6489985e03a62649db0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0042.png using Guid(018611765c2cb6489985e03a62649db0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bc173850de36f2c28b045075afe1906') in 0.005553 seconds 
+  Import took 0.007588 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0022.png
+  artifactKey: Guid(325e0d22766b4236fa568f151dda4d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0022.png using Guid(325e0d22766b4236fa568f151dda4d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab1ceff1b3fbaef97be9f4d45a061476') in 0.004778 seconds 
+  Import took 0.006863 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0059.png
+  artifactKey: Guid(e2e84c4f8d91d5fb18133a43ca6022de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0059.png using Guid(e2e84c4f8d91d5fb18133a43ca6022de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcb9575729e34a12e55b1e1a1c4b1e77') in 0.003936 seconds 
+  Import took 0.006175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0061.png
+  artifactKey: Guid(66f3badb735d1bfc0918b40bb505c316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0061.png using Guid(66f3badb735d1bfc0918b40bb505c316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2485ed05bc155fb237689a673d724128') in 0.004121 seconds 
+  Import took 0.006403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0006.png
+  artifactKey: Guid(41bb7f329dc294bb9a76d776df0719c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0006.png using Guid(41bb7f329dc294bb9a76d776df0719c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56051a969b03c48a62c7f5b76b7754e4') in 0.005290 seconds 
+  Import took 0.007613 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0067.png
+  artifactKey: Guid(bd9ad33f4f8883e8bbdb9cdef2825bad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0067.png using Guid(bd9ad33f4f8883e8bbdb9cdef2825bad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5a08868cf5815f965758760c7a89b72') in 0.014473 seconds 
+  Import took 0.017252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0035.png
+  artifactKey: Guid(524018f2a66b581fe9ff26ab6a625db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0035.png using Guid(524018f2a66b581fe9ff26ab6a625db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ebc327a29f3e8e413e05f5922dad3ea') in 0.004581 seconds 
+  Import took 0.007390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0044.png
+  artifactKey: Guid(1d9e0ade649deebccbecd56e0e034564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0044.png using Guid(1d9e0ade649deebccbecd56e0e034564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87cf42d2c439382a7aedae2e70aa9736') in 0.006891 seconds 
+  Import took 0.009123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0003.png
+  artifactKey: Guid(a9102efa1a153d4ed987bfceab99c203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0003.png using Guid(a9102efa1a153d4ed987bfceab99c203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f31e3a0768a0912290c9cce936288a87') in 0.006827 seconds 
+  Import took 0.008927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0014.png
+  artifactKey: Guid(ec4132af85e43671eba97711dc0b6c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0014.png using Guid(ec4132af85e43671eba97711dc0b6c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9016e5036d35db5f9b0d686c7ce1a78e') in 0.005239 seconds 
+  Import took 0.007520 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0068.png
+  artifactKey: Guid(3d138d4c49e7dee879e296e252f8eed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0068.png using Guid(3d138d4c49e7dee879e296e252f8eed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a469e1c4deaf00fb179060af9b9d306') in 0.004748 seconds 
+  Import took 0.007118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0046.png
+  artifactKey: Guid(f191e17d4d020fd83bd731fede7938dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0046.png using Guid(f191e17d4d020fd83bd731fede7938dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6ffd0b3f2269de3997c3df9325255b1') in 0.006199 seconds 
+  Import took 0.008756 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0008.png
+  artifactKey: Guid(2f54d5b94df1ca77499720445c099cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0008.png using Guid(2f54d5b94df1ca77499720445c099cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '211d7f685e53acbe3a4cec77957e3d59') in 0.007122 seconds 
+  Import took 0.009481 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0017.png
+  artifactKey: Guid(f418984a6a1792e5a953f9404994f61c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0017.png using Guid(f418984a6a1792e5a953f9404994f61c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f7bd97f15e0781d76fd0a590db95b4e') in 0.003945 seconds 
+  Import took 0.006333 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0062.png
+  artifactKey: Guid(51308858ef661d4c5be3c7829ed014ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0062.png using Guid(51308858ef661d4c5be3c7829ed014ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b99e41bda3ff7b8c07cc5f642ef36ec1') in 0.004138 seconds 
+  Import took 0.006543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0072.png
+  artifactKey: Guid(260b681434a77798bb70a0cab09694d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0072.png using Guid(260b681434a77798bb70a0cab09694d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5af7e3504d3a292a84c0a975fc643d9') in 0.003724 seconds 
+  Import took 0.005816 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0016.png
+  artifactKey: Guid(35f929a06ce8c2e9a937279c459ef7a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0016.png using Guid(35f929a06ce8c2e9a937279c459ef7a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24a6b8ae6213bdb88ec9a1939ffb1d96') in 0.005183 seconds 
+  Import took 0.007160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0026.png
+  artifactKey: Guid(3981d4460265ef7a288d81834ed7f0f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0026.png using Guid(3981d4460265ef7a288d81834ed7f0f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe9257d50f43c68af9e4d9e2bb63d1c2') in 0.003794 seconds 
+  Import took 0.005682 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0007.png
+  artifactKey: Guid(0694022f91c9df00085f73c83aa66cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0007.png using Guid(0694022f91c9df00085f73c83aa66cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4759c25fc71a73dafd4d7421fddce6f5') in 0.004968 seconds 
+  Import took 0.007118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0023.png
+  artifactKey: Guid(53bb8843d44a95274b06c10e303e294d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0023.png using Guid(53bb8843d44a95274b06c10e303e294d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cfbba38acae5cdc3d453539b306245e') in 0.004322 seconds 
+  Import took 0.006876 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0002.png
+  artifactKey: Guid(3307de498fff58463bd8d446f4f81705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0002.png using Guid(3307de498fff58463bd8d446f4f81705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ade1a28326a8decbe78049eb3fe4292a') in 0.006320 seconds 
+  Import took 0.008485 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0011.png
+  artifactKey: Guid(8ad2e0e413e1bfb9e83c6c596189b0bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0011.png using Guid(8ad2e0e413e1bfb9e83c6c596189b0bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b79a80c981bee964f246daa3808e7d6d') in 0.005406 seconds 
+  Import took 0.007411 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0037.png
+  artifactKey: Guid(bf248261b08e50579a0c60705b3bac01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0037.png using Guid(bf248261b08e50579a0c60705b3bac01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '032750d22638ad338df1eac357a37af5') in 0.003991 seconds 
+  Import took 0.006214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0036.png
+  artifactKey: Guid(5d1a25c73de78b0a59fff8d04d80d9ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0036.png using Guid(5d1a25c73de78b0a59fff8d04d80d9ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfab9e6c2d6013f2293956f77225d319') in 0.005776 seconds 
+  Import took 0.008291 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0018.png
+  artifactKey: Guid(f0b240928cbc5bc31ae1f71c3fcc7ea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0018.png using Guid(f0b240928cbc5bc31ae1f71c3fcc7ea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0da8604f704f0bf6da28d17891f50c15') in 0.005031 seconds 
+  Import took 0.007234 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0028.png
+  artifactKey: Guid(13c661cc6416379519c2e6232556338c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0028.png using Guid(13c661cc6416379519c2e6232556338c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b2bf7d6aa5e9336cb876cffcb7d1f98') in 0.003559 seconds 
+  Import took 0.005585 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0027.png
+  artifactKey: Guid(61d7a83411c6096198870b8e668d46cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0027.png using Guid(61d7a83411c6096198870b8e668d46cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '519b38825e8b6ff07c87870c862b340f') in 0.005527 seconds 
+  Import took 0.007518 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0019.png
+  artifactKey: Guid(3fcc3b276e2aac0e8822979d0cdedbd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0019.png using Guid(3fcc3b276e2aac0e8822979d0cdedbd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04f6d497031aeedb135d8d74a7d1ecc8') in 0.004582 seconds 
+  Import took 0.007031 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0034.png
+  artifactKey: Guid(b1855bbc2ddf4397fb301b3cc68f59e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0034.png using Guid(b1855bbc2ddf4397fb301b3cc68f59e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4056c056d3eaacbf3ef07ad4bf3f765') in 0.005586 seconds 
+  Import took 0.008002 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0010.png
+  artifactKey: Guid(c54bc51424a02754db51a9edaea945ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0010.png using Guid(c54bc51424a02754db51a9edaea945ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1a96a9c3331a521f4b5a88b99e2ac3a') in 0.004993 seconds 
+  Import took 0.007553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0029.png
+  artifactKey: Guid(18feb37b171d08574b179c63a8b93856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0029.png using Guid(18feb37b171d08574b179c63a8b93856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44838c2dd1c8d417645b1e7dc0431a98') in 0.006616 seconds 
+  Import took 0.009081 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0066.png
+  artifactKey: Guid(fe8ff4e1f0f308c7eb643a97ee3b4d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0066.png using Guid(fe8ff4e1f0f308c7eb643a97ee3b4d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '936943e9f4c1b4934f50893e4984b3c7') in 0.004668 seconds 
+  Import took 0.007017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0039.png
+  artifactKey: Guid(92a51d628e659cfc08e2103af92b6481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0039.png using Guid(92a51d628e659cfc08e2103af92b6481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc7c50b9e06414f31a21d1f38e6f4a7c') in 0.004313 seconds 
+  Import took 0.006898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0012.png
+  artifactKey: Guid(2bd8754ef9d0e17a180776403f39b238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0012.png using Guid(2bd8754ef9d0e17a180776403f39b238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49ec16b4fe964c4bf99e2bd3f125bad1') in 0.004346 seconds 
+  Import took 0.006863 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0054.png
+  artifactKey: Guid(fa9bfe87ef5844a1e9234e4a3c36892f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0054.png using Guid(fa9bfe87ef5844a1e9234e4a3c36892f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '359d21a44d70cf1b4e9452a3287f0f00') in 0.005625 seconds 
+  Import took 0.007596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0030.png
+  artifactKey: Guid(c573cad01c464de7ebcffe3020869ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0030.png using Guid(c573cad01c464de7ebcffe3020869ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1092d7c306beef44054af9774da1209d') in 0.005389 seconds 
+  Import took 0.007346 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0009.png
+  artifactKey: Guid(b743acd69a4df8a75bcc61d2a6e390d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0009.png using Guid(b743acd69a4df8a75bcc61d2a6e390d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f102f2784d083ae1ae540f6d4b3bc66') in 0.004026 seconds 
+  Import took 0.006263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0043.png
+  artifactKey: Guid(5aef467e66573cd379828dcec1ba1fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0043.png using Guid(5aef467e66573cd379828dcec1ba1fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '193e7c3c8d1e6ae6d5d25a6547c96787') in 0.003946 seconds 
+  Import took 0.006120 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0058.png
+  artifactKey: Guid(ee26961e533fb4418ba842fa019e01e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0058.png using Guid(ee26961e533fb4418ba842fa019e01e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0e796a3a90f1ff934ee4e17e57e94e7') in 0.004297 seconds 
+  Import took 0.006899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0065.png
+  artifactKey: Guid(22a5004b04967e951b8d1eb02867828a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0065.png using Guid(22a5004b04967e951b8d1eb02867828a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a68cf4bdacfb1223188d20ecaa2b664e') in 0.004049 seconds 
+  Import took 0.006797 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0041.png
+  artifactKey: Guid(68f2127580f7168e99002473bad22193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0041.png using Guid(68f2127580f7168e99002473bad22193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11da8b998386bae53d7c6a3027cccfb4') in 0.005419 seconds 
+  Import took 0.007796 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0015.png
+  artifactKey: Guid(fd341a77df2ddba7eb710b7ddd590577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0015.png using Guid(fd341a77df2ddba7eb710b7ddd590577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '090bb429beedf8dacd0fd40475fc4d5b') in 0.004255 seconds 
+  Import took 0.006535 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0069.png
+  artifactKey: Guid(2eb7db85fb7b14db69b2b3ad3d00583f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0069.png using Guid(2eb7db85fb7b14db69b2b3ad3d00583f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f66bb47beb8ba7375586160e7dd8ab9') in 0.004913 seconds 
+  Import took 0.007220 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0032.png
+  artifactKey: Guid(155785d033f5b372f8bcc11efac1941d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0032.png using Guid(155785d033f5b372f8bcc11efac1941d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65f4c0c9c82522290d083180054a8c24') in 0.004615 seconds 
+  Import took 0.006817 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0070.png
+  artifactKey: Guid(a27145040dca810fe9a4873fa7f40282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0070.png using Guid(a27145040dca810fe9a4873fa7f40282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba691ebda6f69cf4093d427bb1d148ad') in 0.004908 seconds 
+  Import took 0.006927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0047.png
+  artifactKey: Guid(3a9b27ae9b2d886eeb3d4029ca209e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0047.png using Guid(3a9b27ae9b2d886eeb3d4029ca209e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '671a7a05b5c6b875b7fb5bbc90d6bbd5') in 0.003316 seconds 
+  Import took 0.005340 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0024.png
+  artifactKey: Guid(7bbb2b5a088167a1ab0ce691f22b7aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0024.png using Guid(7bbb2b5a088167a1ab0ce691f22b7aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7de1fc5c7929615e1abba846973e5eee') in 0.004089 seconds 
+  Import took 0.006205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0049.png
+  artifactKey: Guid(55327b75ae6a8bb68828b0e96d2c62cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0049.png using Guid(55327b75ae6a8bb68828b0e96d2c62cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a7c47b6a372980ff1105d8dd8311bd3') in 0.004259 seconds 
+  Import took 0.006904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0071.png
+  artifactKey: Guid(310ed28caeba66df2a42d7cc8c9fc06e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0071.png using Guid(310ed28caeba66df2a42d7cc8c9fc06e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '317ba11a8cca538b70719dd33d067344') in 0.005428 seconds 
+  Import took 0.007638 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0060.png
+  artifactKey: Guid(8d0574d317d138a6990078743697d6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0060.png using Guid(8d0574d317d138a6990078743697d6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7304169430fe08e86a54ee8b3c19b04d') in 0.003676 seconds 
+  Import took 0.005791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0005.png
+  artifactKey: Guid(45fd8f0f6058e0cedacdb028784c3c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0005.png using Guid(45fd8f0f6058e0cedacdb028784c3c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed32eff97e298ba553953ee38110471e') in 0.003558 seconds 
+  Import took 0.005331 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0025.png
+  artifactKey: Guid(fc5d8fa680270e0ceb316efa7eaf7b8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0025.png using Guid(fc5d8fa680270e0ceb316efa7eaf7b8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8679b7ce97e6a3c09e278ab7f43a0ca') in 0.004808 seconds 
+  Import took 0.006729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0053.png
+  artifactKey: Guid(e35d13826ba4c90828abccbde6f11ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0053.png using Guid(e35d13826ba4c90828abccbde6f11ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '476cb4ccaf5f90734774dcfd6c6b90df') in 0.004030 seconds 
+  Import took 0.006111 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0063.png
+  artifactKey: Guid(f33241e659e5db1218149f8e2b7347b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0063.png using Guid(f33241e659e5db1218149f8e2b7347b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c698b51195aabe5a51b569fa84c46841') in 0.005217 seconds 
+  Import took 0.007522 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0004.png
+  artifactKey: Guid(4f0ad7f83e6bd51f5870556ccf7b0e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0004.png using Guid(4f0ad7f83e6bd51f5870556ccf7b0e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb7a33fca3d42c22e9b4f0c6f6d0e5ee') in 0.004494 seconds 
+  Import took 0.006792 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0031.png
+  artifactKey: Guid(0d6a3b61baa3c9bcaa12ee7bd66c6568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0031.png using Guid(0d6a3b61baa3c9bcaa12ee7bd66c6568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e39f20c1723fa23283c9eebad1c2574b') in 0.003609 seconds 
+  Import took 0.005696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0052.png
+  artifactKey: Guid(e3e9b7881171db04c8b8357c3fe3fec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0052.png using Guid(e3e9b7881171db04c8b8357c3fe3fec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b9ccdc15ff289d7ca67e2ffbb636b04') in 0.003528 seconds 
+  Import took 0.005617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0040.png
+  artifactKey: Guid(ca3aae4bfcdd111338688cb9f2d0736b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0040.png using Guid(ca3aae4bfcdd111338688cb9f2d0736b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c28093f69597f6f365cc3be3894d1adf') in 0.005330 seconds 
+  Import took 0.007768 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0020.png
+  artifactKey: Guid(0de7581749f3de4c3ae2694dc9a0736a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0020.png using Guid(0de7581749f3de4c3ae2694dc9a0736a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b25621125eaa34bc95066a90fd061bd') in 0.006293 seconds 
+  Import took 0.008543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0021.png
+  artifactKey: Guid(4739e1cfcf202a15d99d0243f265d5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0021.png using Guid(4739e1cfcf202a15d99d0243f265d5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a63e70d77e8e977fdc50ff123dfc9b1') in 0.004547 seconds 
+  Import took 0.006669 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0045.png
+  artifactKey: Guid(a97b05cafbf69c1149d6fe9193d8bdef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0045.png using Guid(a97b05cafbf69c1149d6fe9193d8bdef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c0b3b033980e9f7e2fb6ffcf95d9446') in 0.003901 seconds 
+  Import took 0.006320 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0057.png
+  artifactKey: Guid(edcc37c7caa3204eba7fd64df7b4e930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0057.png using Guid(edcc37c7caa3204eba7fd64df7b4e930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eea6a68c7d398200f677db362d5a430') in 0.005169 seconds 
+  Import took 0.007585 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0050.png
+  artifactKey: Guid(c8ff5623cd0844c9e984f9e59a10544b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0050.png using Guid(c8ff5623cd0844c9e984f9e59a10544b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0bec0d08bec3e59b78563602f8ea86c') in 0.004678 seconds 
+  Import took 0.007014 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0051.png
+  artifactKey: Guid(23111c9a6b62b3117b54645bfb252992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0051.png using Guid(23111c9a6b62b3117b54645bfb252992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fba01d6792895a4c7a817ee1aa399a7c') in 0.003545 seconds 
+  Import took 0.005755 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0038.png
+  artifactKey: Guid(dc411a442e9eebe1495688f2bcc2a9a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0038.png using Guid(dc411a442e9eebe1495688f2bcc2a9a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05406341552de14378d1e90c6aa48190') in 0.005678 seconds 
+  Import took 0.007782 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0055.png
+  artifactKey: Guid(efe9fb7f28e9ae9c3a3391c4817cead7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0055.png using Guid(efe9fb7f28e9ae9c3a3391c4817cead7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '366260ab5742273af081f07a43f64815') in 0.004216 seconds 
+  Import took 0.006930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0056.png
+  artifactKey: Guid(d3eede67ce07e6be986cb6e6b5a56f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0056.png using Guid(d3eede67ce07e6be986cb6e6b5a56f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abd96177abc52f1699336e256da3c321') in 0.003641 seconds 
+  Import took 0.005961 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.823368 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0073.png
+  artifactKey: Guid(069c83956650fab67b2e66791e0c101f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0073.png using Guid(069c83956650fab67b2e66791e0c101f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84cb482ede7f8047adfd17201daacf95') in 0.006208 seconds 
+  Import took 0.009255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0075.png
+  artifactKey: Guid(eb1cf972340998c8ca7274e33b6ededb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0075.png using Guid(eb1cf972340998c8ca7274e33b6ededb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4883e484054f9c220f39a68d4afc25a2') in 0.004829 seconds 
+  Import took 0.007610 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0086.png
+  artifactKey: Guid(ab7fba843484ec33fa498a09bdea9258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0086.png using Guid(ab7fba843484ec33fa498a09bdea9258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0200ecb52ca338d0882268894f766407') in 0.003763 seconds 
+  Import took 0.006124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0090.png
+  artifactKey: Guid(427df4abb3166eb75a21a1b63df99e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0090.png using Guid(427df4abb3166eb75a21a1b63df99e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5028d3e216949e89dae8bd00e93881b8') in 0.004200 seconds 
+  Import took 0.006162 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0088.png
+  artifactKey: Guid(14a4a2918384b30ef9651320a40f7919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0088.png using Guid(14a4a2918384b30ef9651320a40f7919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a30e033e9bfba48f4e824cbd0a0d9cf9') in 0.004634 seconds 
+  Import took 0.006724 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0077.png
+  artifactKey: Guid(f642a77237e833ded9632a9e48bdb2a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0077.png using Guid(f642a77237e833ded9632a9e48bdb2a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06f02cffbc46c3f978d08b95dd8185cc') in 0.005032 seconds 
+  Import took 0.007403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0087.png
+  artifactKey: Guid(3ef882295b145e3da8abc3700c39bafc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0087.png using Guid(3ef882295b145e3da8abc3700c39bafc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4529d9e4b1c7c6318d055aa6d18977d') in 0.006699 seconds 
+  Import took 0.008955 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0083.png
+  artifactKey: Guid(fad5c05eb6649999284678d5ace76f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0083.png using Guid(fad5c05eb6649999284678d5ace76f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6069bbb3a0a6f3802f816c218f24eb01') in 0.003938 seconds 
+  Import took 0.005972 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0085.png
+  artifactKey: Guid(465cd7124488c5f9a8f49b96dd452378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0085.png using Guid(465cd7124488c5f9a8f49b96dd452378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ea28da5f22e576d0a257710d89fdf51') in 0.003655 seconds 
+  Import took 0.005660 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0082.png
+  artifactKey: Guid(4ca6870db86bd5191b363cfd7e72136f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0082.png using Guid(4ca6870db86bd5191b363cfd7e72136f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3c72b128c8248c29cfddde154b26195') in 0.005638 seconds 
+  Import took 0.007639 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0081.png
+  artifactKey: Guid(d24c82942e2b3fcd6872cef2aa4de7fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0081.png using Guid(d24c82942e2b3fcd6872cef2aa4de7fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c36a971d8cecb0f3ab84b1a6e21425d') in 0.004008 seconds 
+  Import took 0.006184 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0079.png
+  artifactKey: Guid(4e31b3b9a2baf7ad68534f501aba6e6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0079.png using Guid(4e31b3b9a2baf7ad68534f501aba6e6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a95335f633a9bf5b8c02585d9849840') in 0.005939 seconds 
+  Import took 0.008127 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0080.png
+  artifactKey: Guid(aa22105bbd9e0029892a8f6354cb085f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0080.png using Guid(aa22105bbd9e0029892a8f6354cb085f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd47bd039c4cc452c88b85cabb95b1b72') in 0.004011 seconds 
+  Import took 0.006218 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0084.png
+  artifactKey: Guid(e1eb095a9de1966f2a7dca0931bed310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0084.png using Guid(e1eb095a9de1966f2a7dca0931bed310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2603a834e7c4c165398e98238ca2971d') in 0.003420 seconds 
+  Import took 0.005395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0074.png
+  artifactKey: Guid(8646dee66e8da7d74aafdadd8bf24522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0074.png using Guid(8646dee66e8da7d74aafdadd8bf24522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6d2ce66b647b9462268acdfa6e9c4ac') in 0.003986 seconds 
+  Import took 0.006306 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0078.png
+  artifactKey: Guid(2f3d48c970695bde2b14955166f4a912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0078.png using Guid(2f3d48c970695bde2b14955166f4a912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18c0b613e23990e19e56a858dfec94d7') in 0.004139 seconds 
+  Import took 0.006719 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0076.png
+  artifactKey: Guid(18256a46edddd64a8b0f413a7924e117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0076.png using Guid(18256a46edddd64a8b0f413a7924e117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c3548c3055023b1c28cca79a21121b9') in 0.007094 seconds 
+  Import took 0.009404 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0089.png
+  artifactKey: Guid(b78d4aadf9134e0e2b00fe86588b4d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tiles/tile_0089.png using Guid(b78d4aadf9134e0e2b00fe86588b4d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '747d41aea8ffe2120d93406d6d7269bb') in 0.004039 seconds 
+  Import took 0.006179 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.865918 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tilemap
+  artifactKey: Guid(8245efddb20d199bfb8b08f300ba9d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tilemap using Guid(8245efddb20d199bfb8b08f300ba9d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cddc2f72ad593f7d7a4bb7374b7a5b8f') in 0.000573 seconds 
+  Import took 0.003624 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.074563 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tilemap/ships.png
+  artifactKey: Guid(704f9ae817d7e89bfbb65f38ae1581fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tilemap/ships.png using Guid(704f9ae817d7e89bfbb65f38ae1581fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12cfc8eebdb613ae5d699d292818531b') in 0.006654 seconds 
+  Import took 0.009839 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tilemap/tiles.png
+  artifactKey: Guid(8bba57b46b5c2f750be01e24f492acea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tilemap/tiles.png using Guid(8bba57b46b5c2f750be01e24f492acea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd87384813c74ff88ef96bffa43f71d9e') in 0.008791 seconds 
+  Import took 0.011406 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tilemap/ships_packed.png
+  artifactKey: Guid(2c980de2c9c1f74efbf3bfccbc0b141e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tilemap/ships_packed.png using Guid(2c980de2c9c1f74efbf3bfccbc0b141e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42c3fe5494d3ead24b4c5a1249164858') in 0.007262 seconds 
+  Import took 0.009528 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tilemap/tiles_packed.png
+  artifactKey: Guid(54f7408468cda198b93d0c3cd7a1fbc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tilemap/tiles_packed.png using Guid(54f7408468cda198b93d0c3cd7a1fbc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4a1f36086c1a02fefbb9ce325dd61f7') in 0.006144 seconds 
+  Import took 0.008438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 82.798198 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tilemap/tiles_packed.png
+  artifactKey: Guid(54f7408468cda198b93d0c3cd7a1fbc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tilemap/tiles_packed.png using Guid(54f7408468cda198b93d0c3cd7a1fbc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '900365fd9b8f2508f437697d2b573665') in 0.005554 seconds 
+  Import took 0.009434 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 58.915390 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tilemap/tiles_packed.png
+  artifactKey: Guid(54f7408468cda198b93d0c3cd7a1fbc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tilemap/tiles_packed.png using Guid(54f7408468cda198b93d0c3cd7a1fbc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1199ff58f2f05ef4de206ad6c72e545') in 0.004461 seconds 
+  Import took 0.007279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 63.912165 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tilemap/tiles_packed.png
+  artifactKey: Guid(54f7408468cda198b93d0c3cd7a1fbc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tilemap/tiles_packed.png using Guid(54f7408468cda198b93d0c3cd7a1fbc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '309c83ab7510d258cde5796109df700e') in 0.006681 seconds 
+  Import took 0.009742 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 177.241239 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tilemap/tiles_packed.png
+  artifactKey: Guid(54f7408468cda198b93d0c3cd7a1fbc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tilemap/tiles_packed.png using Guid(54f7408468cda198b93d0c3cd7a1fbc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4389be984a7224c79a246f693cecfd08') in 0.226845 seconds 
+  Import took 0.229975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 179.824130 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tilemap/Palette
+  artifactKey: Guid(c3cd38ada0a8180c59d486357eff135f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tilemap/Palette using Guid(c3cd38ada0a8180c59d486357eff135f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98d6e830e4153ac6af4ac33e600c8cb0') in 0.000946 seconds 
+  Import took 0.004144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033242 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tilemap/Palette/New Palette.prefab
+  artifactKey: Guid(ed52acc2b115e75b3bffacaa703d5edb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tilemap/Palette/New Palette.prefab using Guid(ed52acc2b115e75b3bffacaa703d5edb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7af10428ae2bcf63305fd20f4b71ea22') in 0.021509 seconds 
+  Import took 0.024458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 99.774286 seconds.
+  path: Assets/Sprite/Kenny/kenney_pixelshmup/Tilemap/PaletteTiles
+  artifactKey: Guid(95ceb9fa52901daf8a309ac489ffa0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kenny/kenney_pixelshmup/Tilemap/PaletteTiles using Guid(95ceb9fa52901daf8a309ac489ffa0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee97eec9d04137537caa0d8d8614363b') in 0.000601 seconds 
+  Import took 0.003718 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
