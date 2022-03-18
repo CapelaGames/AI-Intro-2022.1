@@ -53,7 +53,7 @@ public class PlayerManager : BaseManager
             while (healTimesRemaining > 0)
             {
                 Heal(10f);
-                yield return new WaitForSeconds(waitTime);
+                yield return new WaitForSecondsRealtime(waitTime);
                 
                 healTimesRemaining--;
             }

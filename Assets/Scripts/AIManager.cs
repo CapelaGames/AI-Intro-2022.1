@@ -15,6 +15,7 @@ public class AIManager : BaseManager
     
     public State currentState;
     protected PlayerManager _playerManager;
+    [SerializeField] protected Animator _anim;
     
     protected override void Start()
     {
@@ -64,7 +65,7 @@ public class AIManager : BaseManager
 
     IEnumerator EndTurn()
     {
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSecondsRealtime(2f);
         _playerManager.TakeTurn();
     }
 
@@ -139,6 +140,7 @@ public class AIManager : BaseManager
     {
         Debug.LogWarning("Ai cast vine whip!");
         _playerManager.DealDamage(30f);
+        _anim.SetTrigger("VineWhip");
     }
 
     public void FlameWheel()
