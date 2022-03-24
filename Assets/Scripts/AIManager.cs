@@ -56,6 +56,13 @@ public class AIManager : BaseManager
         StartCoroutine(WaitAndEndTurn());
     }
 
+    private IEnumerator Wait(Action<string> callback)
+    {
+        yield return new WaitForSecondsRealtime(2f);
+
+        callback("EndTurn");
+    }
+
     private IEnumerator WaitAndEndTurn()
     {
         yield return new WaitForSecondsRealtime(2f);
@@ -127,6 +134,8 @@ public class AIManager : BaseManager
         _anim.SetTrigger("Splash");
         EndTurn();
     }
+
+   
 
     public void IronTail()
     {
